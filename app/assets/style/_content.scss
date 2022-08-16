@@ -1,0 +1,129 @@
+.content-area{
+    width: 80%;
+    // padding: 32px;
+}
+.list-group{
+    font-size: 12px;
+    color: $textColor;
+    // background-color: $secondbgColor;
+    &:first-child{
+        width: 100%;
+    }
+}
+.content-area{
+    padding-left: 32px;
+    padding-right: 32px;
+}
+.edit-action,
+.notice
+{
+    a{
+        color: #000;
+        &:hover {
+            color: $mainColor;
+        }
+    }
+}
+.list-group-item{
+    padding: 12px;
+    border: 1px solid $secondbgColor;
+    &.active {
+        z-index: 2;
+        color: $textColor;
+        background-color: $bgColor;
+        border-color: $secondbgColor;
+    }
+}
+.ask{
+    padding-left: 64px;
+}
+.message{
+    .content{
+        font-size: 16px;
+    }
+}
+.comments-num{
+    font-size: 12px;
+}
+// .content-list-outline{
+//     width: 65%;
+// }
+.content-list{
+    border: 1px solid $secondbgColor;
+    padding-bottom: 22px;
+    img{
+        width: 40px;
+        height: 40px;
+    }
+    .list-group{
+        border-bottom: 1px solid $secondbgColor;
+    }
+}
+.content-ask{
+    padding-left: 64px;
+}
+.msg-from{
+    // width: 80%;
+    // border-bottom: 1px solid $secondbgColor;
+    .time{
+        font-size: 12px;
+        color: $secondtextColor;
+    }
+    .content{
+        font-size: 14px;
+        color: $textColor;
+        line-height: 21px;
+    }
+}
+.attachment{
+    padding-bottom: 17px;
+    border-bottom: 1px solid $secondbgColor;
+}
+.attachment-file{
+    width: 176px;
+    padding: 8px 12px;
+    background-color: $bgColor;
+    border: 1px solid $secondbgColor;
+    &:hover{
+        opacity: 0.6;
+    }
+}
+.msg-content{
+    padding-top: 18px;
+    .photo{
+        width: 40px;
+        height: 40px;
+        object-fit: cover;
+    }
+}
+.reply-content{
+    padding-left: 64px;
+}
+.add-action{
+    color: $textColor;
+    &:hover{
+        color: $mainColor;
+    }
+}
+.table>:not(caption)>*>* {
+    padding-right: 0;
+}
+.search{
+    margin-right: 27px;
+}
+.table-action{
+    .eye,.edit{
+        color: $textColor;
+        &:hover {
+            color: $mainColor;
+        }
+    }
+}
+.eye{
+    margin-right: 27px;
+}
+.pg{
+    & span:first-child{
+        margin-right: 23px;
+    }
+}

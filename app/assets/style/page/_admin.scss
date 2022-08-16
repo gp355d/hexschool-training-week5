@@ -1,0 +1,186 @@
+.page{
+    padding: 63px 0 32px 0;
+}
+
+.page-item {
+    border-color: $mainColor;
+}
+.page-link {
+    width: 32px;
+    height: 32px;
+    padding:4px;
+    text-align: center;
+    color: $textColor;
+    &:hover {
+        // z-index: 2;
+        background-color: $mainColor;
+        border-color: $mainColor;
+        color: #fff;
+        // background-color: #e9ecef;
+        // border-color: #dee2e6;
+    }
+}
+.table-hover>tbody>tr:hover {
+    --bs-table-accent-bg: none;
+    background-color: $bgColor;
+    color: $textColor;
+}
+
+.modal-header {
+    padding: 2rem;
+}
+.modal-body {
+    padding: 0 2rem;
+    // min-height: 1200px;
+}
+.number-info{
+    padding: 32px;
+}
+.btn-close {
+    box-sizing: border-box;
+    width: 24px;
+    height: 24px;
+    padding: 0.25em 0.25em;
+    border-radius: 0;
+    opacity: .5;
+}
+.id-number{
+    width: 19px;
+    height: 19px;
+    display: inline-block;
+}
+.photo{
+    img{
+        width: 141px;
+        height: 141px;
+    }
+    // width: 40%;
+}
+.member-data{
+    width: 63%;
+}
+.member-name{
+    font-size: 24px;
+    line-height: 36px;
+}
+.title{
+    font-size: 24px;
+}
+.area{
+    font-size: 20px;
+    line-height: 33px;
+    // margin-top: 25px;
+    margin-bottom: 19px;
+}
+.member-email{
+    font-size: 14px;
+    color: $secondtextColor;
+}
+.member-verified{
+    font-size: 14px;
+}
+.form-control.edit{
+    background-color: $bgColor;
+    padding: 1rem;
+    border-radius: 0;
+    color: $secondbgColor;
+    border: 0;
+}
+.form-control.new{
+    border: 1px solid $textColor;
+    border-radius:2px;
+}
+.verification{
+    border: 1px solid $secondbgColor;
+    border-radius: 2px;
+}
+.verification-icon{
+    margin-right: 10px;
+}
+.email{
+    padding-bottom: 25px;
+    border-bottom: 1px solid $secondbgColor;
+}
+.form-select{
+    border: 1px solid $textColor;
+    border-radius: 2px;
+}
+.member-level{
+    padding-bottom: 25px;
+    border-bottom: 1px solid $secondbgColor;
+
+}
+.form-select {
+    color: $secondtextColor;
+}
+
+.modal-footer {
+    padding: 16px 32px;
+}
+.modal-footer>* {
+    margin: 0;
+}
+.cancel{
+    padding: 8px 33px 8px 32px;
+    margin-right: 15px;
+}
+.action{
+    padding: 8px 32px;
+}
+.form-check {
+    margin-bottom: 0;
+}
+.cheak-permission{
+    padding-bottom: 25px;
+    border-bottom: 1px solid $secondbgColor;
+}
+.delete{
+    line-height: 33px;
+}
+.alert-msg{
+    margin-bottom: 18px;
+}
+.btn {
+    border-radius: 2px;
+}
+.verification-status{
+    margin-bottom: 18px;
+}
+
+.form-check-input[type=checkbox] {
+    border-radius: 2px;
+}
+// .form-check .form-check-input {
+//     float: left;
+//     margin-left: -1.5em;
+// }
+.form-check-input {
+    border: 2px solid #000;
+
+}
+.expand_more {
+    display: none;
+  }
+  .expand_less {
+    display: inline-block;
+  }
+  .collapsed .expand_more {
+    display: inline-block;
+  }
+  
+  .collapsed .expand_less {
+    display: none;
+  }
+  .accordion-body {
+    padding: 0;
+}
+.accordion-item {
+    background-color: #fff;
+    border: 0;
+    .status{
+        font-size: 14px;
+    }
+}
+.btn-action{
+    margin-top: 32px;
+}

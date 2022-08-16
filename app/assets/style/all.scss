@@ -1,0 +1,11 @@
+@import "reset";
+@import "variables";
+@import "base";
+@import "utilities";
+
+//共用layout
+@import "../style/layout/menu";
+//頁面設計
+@import "../style/page/index";
+@import "../style/page/admin";
+@import "../style/page/reply";
