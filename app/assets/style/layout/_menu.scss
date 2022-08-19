@@ -5,6 +5,7 @@
     .link{
         & a{
             color: $textColor;
+            padding-left: 32px;
         }
         & a:hover{
             color: $mainColor;
