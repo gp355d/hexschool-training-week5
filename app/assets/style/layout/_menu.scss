@@ -1,15 +1,16 @@
 .menu{
-    width: 28%;
+    width: 296px;
     background-color: $bgColor;
     padding: 32px 0 0 0;
+    min-height: 100vh;
     .link{
         & a{
             color: $textColor;
             padding-left: 32px;
+
         }
         & a:hover{
             color: $mainColor;
-            border-left: 4px solid $mainColor;
         }
     }
 }
