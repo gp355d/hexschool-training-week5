@@ -106,7 +106,10 @@
     }
 }
 .table>:not(caption)>*>* {
-    padding-right: 0;
+    padding: 19px 8px 17px;
+}
+tbody > tr{
+    border-bottom: 1px solid $secondbgColor;
 }
 .search{
     margin-right: 27px;
